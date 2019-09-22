@@ -23,5 +23,5 @@ def using_shift(array)
 end
 
 def shift_with_args(array, arg = 2)
-  return arry.shift(arg)
+  return array.shift(arg)
 end
