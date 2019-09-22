@@ -3,7 +3,6 @@ def using_push(array, string)
 end
 
 def using_unshift(array,string)
-  puts array.unshift(string)
   return array.unshift(string)
 end 
 
