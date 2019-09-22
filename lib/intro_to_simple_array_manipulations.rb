@@ -30,9 +30,9 @@ def using_concat(array1, array2)
    return array1.concat(array2) 
  end 
  
-def using_insert(array)
-  return array.insert(4)
-  
+def using_insert(array, new[4])
+  return array.insert(new[4])
+end
   
   
   
