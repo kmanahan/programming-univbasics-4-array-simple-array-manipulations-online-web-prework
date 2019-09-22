@@ -13,8 +13,8 @@ def using_pop(array)
   return array.pop  
 end
 
-def pop_with_args(array= ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"], 2)
-  puts array.pop(2)
+def pop_with_args(array= ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"], arg = 2)
+  puts array.pop(arg)
 end
 
 pop_with_args
