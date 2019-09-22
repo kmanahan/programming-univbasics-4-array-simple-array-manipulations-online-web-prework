@@ -14,7 +14,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array= ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"])
-  puts array[-2]
+  puts array[-1]
 end
 
 pop_with_args
