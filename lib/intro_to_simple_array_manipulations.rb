@@ -20,5 +20,6 @@ end
 
 def using_shift(array = ["one", "two", "three"])
   puts array.shift
+  return array
 end
 using_shift
